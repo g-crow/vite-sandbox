@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "memberName": "Alex Johnson",
+    "date": "2025-10-15",
+    "mood": "😀",
+    "notes": "Feeling motivated after group therapy session",
+    "coach": { "id": 101, "name": "Coach Riley" }
+  },
+  {
+    "id": 2,
+    "memberName": "Priya Singh",
+    "date": "2025-10-16",
+    "mood": "😐",
+    "notes": "A bit tired",
+    "coach": { "id": 102, "name": "Coach Sam" }
+  },
+  {
+    "id": 3,
+    "memberName": "Marco Ruiz",
+    "date": "2025-10-18",
+    "mood": "😞",
+    "notes": "Struggling with housing",
+    "coach": { "id": 101, "name": "Coach Riley" }
+  },
+  {
+    "id": 4,
+    "memberName": "Johnny Firefly",
+    "date": "2025-10-20",
+    "mood": "😀",
+    "notes": "Had a great visit with nephew last weekend",
+    "coach": { "id": 103, "name": "Coach Maria" }
+  },
+  {
+    "id": 5,
+    "memberName": "Colleen Campbell",
+    "date": "2025-10-20",
+    "mood": "😐",
+    "notes": "Mentioned feeling flat on new meds",
+    "coach": { "id": 102, "name": "Coach Sam" }
+  }
+]
