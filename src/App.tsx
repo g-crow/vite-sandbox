@@ -14,7 +14,6 @@ export default function App() {
         <button className="action-button" onClick={() => setResult('Code executed!')}>
           ▶️ Run Code
         </button>
-
         <button className="action-button" onClick={() => setResult(null)}>
           🔄 Reset
         </button>
