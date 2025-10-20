@@ -3,11 +3,13 @@ export interface Coach {
   name: string;
 }
 
+export type Mood = '😞' | '😐' | '😀';
+
 export interface MemberCheckIn {
   id: number;
   memberName: string;
-  date: string;
-  mood: any; // TS FIXME
+  date: string; // ISO yyyy-mm-dd
+  mood: Mood;
   notes?: string;
   coach: Coach;
 }
