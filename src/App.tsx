@@ -8,11 +8,17 @@ export default function App() {
 
   return (
     <>
-      <h1>React + TypeScript environ 🧩</h1>
-      <div className="result">{result ?? 'Result displays here...'}</div>
-      <button className="action-button" onClick={() => setResult('Button clicked!')}>
-        Run code!
-      </button>
+      <h1>Mini React + TypeScript Playground 🧩</h1>
+      <div className="result">{result ?? 'No result yet — click Run Code!'}</div>
+      <div className="button-container">
+        <button className="action-button" onClick={() => setResult('Code executed!')}>
+          ▶️ Run Code
+        </button>
+
+        <button className="action-button" onClick={() => setResult(null)}>
+          🔄 Reset
+        </button>
+      </div>
 
       {/* <MemberCheckInDashboard /> */}
     </>

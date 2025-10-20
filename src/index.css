@@ -36,12 +36,17 @@ h1 {
   border-radius: 5px;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .action-button {
   display: inline-block;
   padding: 0.75em 1.5em;
   border: none;
   border-radius: 8px;
-  background-color: #4f8a8b;
+  background-color: #0d9488;
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
@@ -53,7 +58,7 @@ h1 {
 }
 
 .action-button:hover {
-  background-color: #3c6f70;
+  background-color: #0f766e;
 }
 
 /* --- Member Check-In Dashboard --- */

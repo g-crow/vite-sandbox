@@ -6,8 +6,13 @@ import App from './App';
 describe('App', () => {
   it('renders initial state and updates result on click', () => {
     render(<App />);
-    expect(screen.getByText(/result displays here/i)).toBeInTheDocument();
-    fireEvent.click(screen.getByRole('button', { name: /run code!/i }));
-    expect(screen.getByText(/button clicked!/i)).toBeInTheDocument();
+    // Initial state copy
+    expect(screen.getByText(/no result yet/i)).toBeInTheDocument();
+
+    // Click the Run Code button
+    fireEvent.click(screen.getByRole('button', { name: /run code/i }));
+
+    // Result message
+    expect(screen.getByText(/code executed/i)).toBeInTheDocument();
   });
 });
